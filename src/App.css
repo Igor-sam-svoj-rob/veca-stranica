@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway";
+}
+
+.servisi,
+.proizvodi,
+.kontakt {
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 100px;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.servisi {
+  background-image: url("/public/images/img-1.jpg");
+}
+
+.proizvodi {
+  background-image: url("/public/images/img-2.jpg");
+}
+
+.kontakt {
+  background-image: url("/public/images/img-3.jpg");
+}
